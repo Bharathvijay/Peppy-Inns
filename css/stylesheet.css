@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:700);
+
+#title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+#menu_items {
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline-block;
+    font-size: 30px;
+}
+
+#menu {
+     
+}
+
+.button{
+    text-decoration: none;
+    padding-right: 1px;
+}
+
+ul li a:hover {
+    text-decoration: none;
+} 
