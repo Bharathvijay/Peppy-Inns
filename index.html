@@ -4,23 +4,40 @@
     <meta charset ="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>Peppy Inns</title>
-    <link type="text/css" rel="stylesheet" href="css/stylesheet.css"> 
-    <link type="text/css" rel="stylesheet" href="css/hover.css">
-    <link rel="stylesheet" type="text/css" href="scripts/bootstrap-3.3.4-dist/css/bootstrap.css">   
     <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.h5form-2.13.1.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css"> 
+    <link rel="stylesheet" type="text/css" href="scripts/bootstrap-3.3.4-dist/css/bootstrap.css">   
     <script src="scripts/app.js"></script>
     <script src="scripts/bootstrap-3.3.4-dist/js/bootstrap.js"></script>
 </head> 
  <body> 
     <header>
             <div id="title">Peppy Inn's Cricket Club</div>
-            <div id="menu">
-                <ul id="menu_items">
-                    <li><a href="#" class="button hvr-underline-reveal">Home</a></li>
-                    <li><a href="#" class="button hvr-underline-reveal">Events</a></li>
-                    <li><a href="#" class="button hvr-underline-reveal">Player Profile</a></li>
-                    <li><a href="#" class="button hvr-underline-reveal">Contact us</a></li>
+            <div class="tabs" id="menu">
+                <ul id="menu_items" class="tab-links">
+                    <li class="active"><a href="#tab1" class="button hvr-underline-reveal">Home</a></li>
+                    <li><a href="#tab2" class="button hvr-underline-reveal">Events</a></li>
+                    <li><a href="#tab3" class="button hvr-underline-reveal">Player Profile</a></li>
+                    <li><a href="#tab4" class="button hvr-underline-reveal">Contact us</a></li>
                 </ul>
+                
+                <div class="tab-content">
+                    <div id="tab1" class="tab active">
+                        <p>Peppy inns is one of the spectacular corporate cricket club that exist in chennai</p>
+                        <p>Been playing a outnumbered tournaments, the team has evolved from a newbie to a super pro.</p>
+                    </div>
+                    <div id="tab2" class="tab">
+                        <p>Tells about the list of tournaments the company has been playing</p>
+                    </div>
+                    <div id="tab3" class="tab">
+                        <p>Tells about the list of players who have contributed their time for the victory of the team</p>
+                    </div>
+                    <div id="tab4" class="tab">
+                        <p>Contains the general details about the team member and other contact information</p>
+                    </div>
+                </div>
+                
             </div>
      </header>
      
