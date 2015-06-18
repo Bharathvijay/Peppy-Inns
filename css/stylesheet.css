@@ -1,9 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:700);
 
+@import url(http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here);
+
+@import url(http://fonts.googleapis.com/css?family=Trochut:400italic);
+
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+
 #title {
     font-family: 'Amatic SC', cursive;
     font-size: 70px;
     text-align: center;
+    text-shadow: 1px 1px 2px #4f4f4f;
+}
+
+#dope {
+    font-family: 'Bangers', cursive;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px #a45a98;
 }
 
 #menu_items {
@@ -12,34 +25,57 @@
 
 #menu ul li{
     display: inline-block;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 #menu {
      
 }
 
+.fw {
+    width: 32px;
+    height: 32px;
+}
+
 .button{
     text-decoration: none;
     padding-right: 1px;
+    padding: 10px 10px;
+    border: 2px;
+    border-color: gray;
+}
+
+ul li a {
+    text-decoration: none;   
 }
 
 ul li a:hover {
     text-decoration: none;
 } 
 
-/*----- Tabs -----*/
+ul li a:after {
+    text-decoration: none;   
+}
+
+.tabs {
+    align-content: center; 
+    border: 2px;
+    border-color: gray;
+}
+
+
 .tabs {
     width:100%;
     display:inline-block;
+    border: 2px;
+    border-color: dimgray;
 }
  
-    /*----- Tab Links -----*/
-    /* Clearfix */
     .tab-links:after {
         display:block;
         clear:both;
         content:'';
+        text-decoration: none;
     }
  
     .tab-links li {
@@ -49,31 +85,38 @@ ul li a:hover {
     }
  
         .tab-links a {
+            font-family: 'Trochut', cursive;
             padding:9px 15px;
             display:inline-block;
-            border-radius:3px 3px 0px 0px;
-            background:#7FB5DA;
-            font-size:16px;
+            background:#ffffff;
+            font-size: 1.3em;
             font-weight:600;
-            color:#4c4c4c;
+            color:#000;
             transition:all linear 0.15s;
+            border: 2px solid black;
         }
  
         .tab-links a:hover {
-            background:#a7cce5;
+            background:#000000;
+            color: white;
             text-decoration:none;
+            border: 2px solid white;
+            
         }
  
     li.active a, li.active a:hover {
         background:#fff;
-        color:#4c4c4c;
+        color:#000;
+        border: none;
+        font-size: 1.5em;
+        box-shadow: 1px 2px 2px grey;
     }
  
-    /*----- Content of Tabs -----*/
+    
     .tab-content {
         padding:15px;
         border-radius:3px;
-        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        /*box-shadow:-1px 1px 1px rgba(0,0,0,0.15);*/
         background:#fff;
     }
  
@@ -84,3 +127,15 @@ ul li a:hover {
         .tab.active {
             display:block;
         }
+
+.desc {
+    font-family: 'Just Me Again Down Here', cursive;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.headings {
+    color: crimson;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;   
+}
