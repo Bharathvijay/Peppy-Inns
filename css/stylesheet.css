@@ -13,6 +13,10 @@
     text-shadow: 1px 1px 2px #4f4f4f;
 }
 
+body {
+    background-color: coral;   
+}
+
 #dope {
     font-family: 'Bangers', cursive;
     font-size: 1.2em;
@@ -28,9 +32,7 @@
     font-size: 15px;
 }
 
-#menu {
-     
-}
+
 
 .fw {
     width: 32px;

@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+
+.achievement-container {
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.achievement-container .row {
+    position: relative;
+    padding: 30px;
+    border: 2px solid black;
+    -webkit-box-shadow: 2px 2px 2px 2px gray;
+       -moz-box-shadow: 2px 2px 2px 2px gray;
+            box-shadow: 2px 2px 2px 2px gray;
+}
+
+.achievement-container .row .holder {
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em;
+    text-align: justify;   
+}
+
+.achieve-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: darkblue;
+    text-shadow: 2px 2px 2px gray;
+}   
+
+.cont {
+    font-size: 1.8em;
+    color: darkgreen;
+    text-shadow: 1.5px 1.5px 1.5px gray;
+}

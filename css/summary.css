@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+#color-trans {
+    color: red;
+}
+.match-sum {
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.match-sum .row {
+    position: relative;
+    padding: 30px;
+    border: 2px solid gray;
+    -webkit-box-shadow: 2px 2px 2px 2px gray;
+       -moz-box-shadow: 2px 2px 2px 2px gray;
+            box-shadow: 2px 2px 2px 2px gray;
+}
+
+.match-sum .row .sum-holder {
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.sum-title {
+    font-family: 'Luckiest Guy', cursive;
+    text-align:  center;
+    font-size: 4em;
+    color: coral;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.sumtitle {
+    color: darkorange;
+    font-size: 2em;
+    text-align: left;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.tag-hl {
+    color: crimson;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px gray;
+}

@@ -20,7 +20,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-    text-align: center;
+text-align: center;
 }
 
 .active-slide {
@@ -89,9 +89,5 @@
     margin-right: 20px;
     margin-top: auto;
     margin-bottom: auto;
-}
-
-.pro-pic {
-    width: 80%;
-    height: 80%;
+    border: 4px solid black;
 }
