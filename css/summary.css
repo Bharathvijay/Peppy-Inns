@@ -2,9 +2,14 @@
 
 @import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
 
-#color-trans {
+#color-trans-lose {
     color: red;
 }
+
+#color-trans-win {
+    color: green;
+}
+
 .match-sum {
     padding: 40px;
     padding-left: 100px;
@@ -24,6 +29,8 @@
     font-family: 'Courgette', cursive;
     font-size: 1.5em;
     text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .sum-title {
